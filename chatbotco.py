@@ -7,7 +7,7 @@ app = Flask(__name__)
 CORS(app)
 
 # Configure Gemini API
-genai.configure(api_key='AIzaSyCZV3PQOv5J3hl4SyVqHAl8KNjNmEyv6cY')
+genai.configure(api_key='api')
 model = genai.GenerativeModel('gemini-1.0-pro')
 
 def create_prompt(query):

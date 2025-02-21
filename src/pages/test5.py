@@ -18,7 +18,7 @@ app = Flask(__name__)
 CORS(app)  # Enable CORS for all routes
 
 # Configure Gemini API (Ensure you replace with a valid API key)
-genai.configure(api_key="AIzaSyDS3fdQ9sMlTxQWe47WEdDt5OYt4fpprww")
+genai.configure(api_key="api")
 
 # Initialize PaddleOCR with English and rotation detection
 ocr = PaddleOCR(use_angle_cls=True, lang='en')
