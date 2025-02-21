@@ -67,9 +67,9 @@ Sahay is an AI-driven platform that revolutionizes personalized learning and car
      python app.py
      ```
 3. **Frontend Setup:**
-   - Navigate to the `client` directory:
+   - Navigate to the `frontend` directory:
      ```bash
-     cd client
+     cd frontend
      npm install
      npm start
      ```
@@ -78,13 +78,9 @@ Sahay is an AI-driven platform that revolutionizes personalized learning and car
 
 Contributions are welcome! Please fork the repository and submit pull requests for any features, enhancements, or bug fixes.
 
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-
 ## Contact
 
-For questions or support, please contact [your-email@example.com](mailto:your-email@example.com).
+For questions or support, please contact [chhabadadev@gmail.com](mailto:chhabadadev@gmail.com).
 
 ---
 
