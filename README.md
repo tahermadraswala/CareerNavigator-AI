@@ -1,6 +1,6 @@
-# Sahay - Personalized Learning Pathway Generator
+# CareerNavigator-AI - Personalized Learning Pathway Generator
 
-Sahay is an AI-driven platform that revolutionizes personalized learning and career development. It dynamically tailors learning pathways and job recommendations to each student based on their unique needs, learning styles, and career aspirations.
+CareerNavigator-AI is an AI-driven platform that revolutionizes personalized learning and career development. It dynamically tailors learning pathways and job recommendations to each student based on their unique needs, learning styles, and career aspirations.
 
 ## Key Features
 
@@ -53,12 +53,12 @@ Sahay is an AI-driven platform that revolutionizes personalized learning and car
 
 1. **Clone the Repository:**
    ```bash
-   git clone https://github.com/yourusername/sahay.git
+   git clone https://github.com/yourusername/CareerNavigator-AI.git
    ```
 2. **Backend Setup:**
    - Navigate to the project root and install dependencies:
      ```bash
-     cd sahay
+     cd CareerNavigator-AI
      pip install -r requirements.txt
      ```
    - Set up your PostgreSQL database and configure your environment variables.
@@ -78,10 +78,6 @@ Sahay is an AI-driven platform that revolutionizes personalized learning and car
 
 Contributions are welcome! Please fork the repository and submit pull requests for any features, enhancements, or bug fixes.
 
-## Contact
 
-For questions or support, please contact [chhabadadev@gmail.com](mailto:chhabadadev@gmail.com).
 
----
-
-Sahay brings together advanced AI techniques and modern web technologies to offer a comprehensive, personalized learning and career development ecosystem. Whether you're a student aiming to boost your career or an organization looking to enhance training programs, Sahay provides a cutting-edge solution tailored for success.
+CareerNavigator-AI brings together advanced AI techniques and modern web technologies to offer a comprehensive, personalized learning and career development ecosystem. Whether you're a student aiming to boost your career or an organization looking to enhance training programs, Sahay provides a cutting-edge solution tailored for success.
