@@ -80,4 +80,4 @@ Contributions are welcome! Please fork the repository and submit pull requests f
 
 
 
-CareerNavigator-AI brings together advanced AI techniques and modern web technologies to offer a comprehensive, personalized learning and career development ecosystem. Whether you're a student aiming to boost your career or an organization looking to enhance training programs, Sahay provides a cutting-edge solution tailored for success.
+CareerNavigator-AI brings together advanced AI techniques and modern web technologies to offer a comprehensive, personalized learning and career development ecosystem. Whether you're a student aiming to boost your career or an organization looking to enhance training programs, CareerNavigator-AI provides a cutting-edge solution tailored for success.
