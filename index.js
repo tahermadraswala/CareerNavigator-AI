@@ -20,7 +20,7 @@ const pool = new Pool({
   port: 5432, // Default PostgreSQL port
 });
 
-const EXTERNAL_API_URL = 'AIzaSyBDQfBKivNhofiw4_rqgQ46wMaf99XB6fM'; // Replace with actual API endpoin
+const EXTERNAL_API_URL = 'AIzaSyBHeaTupGuLu6D19oPhZ99zBjPFHAYfpFw'; // Replace with actual API endpoin
 
 // Signup endpoint
 app.post('/api/signup', async (req, res) => {
