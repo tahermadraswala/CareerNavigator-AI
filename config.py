@@ -1,7 +1,7 @@
 import os
 
 class Config:
-    GEMINI_API_KEY = 'api'
+    GEMINI_API_KEY = ''
     MODEL_NAME = 'gemini-1.5-pro'
     DEBUG = True
     
