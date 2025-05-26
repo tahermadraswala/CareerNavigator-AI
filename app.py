@@ -7,7 +7,11 @@ app = Flask(__name__)
 CORS(app)
 
 # Configure Gemini API
+<<<<<<< HEAD
 genai.configure(api_key='GOOGLE_API_KEY')
+=======
+genai.configure(api_key='')
+>>>>>>> 2f83a4d63704a25e87071beeca793157529419fc
 model = genai.GenerativeModel('gemini-1.5-pro')
 
 # Career buddy context/prompt template
