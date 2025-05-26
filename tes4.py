@@ -19,7 +19,7 @@ logger = logging.getLogger(__name__)
 
 # Initialize OpenAI client
 client = OpenAI(
-    api_key="api")
+    api_key="OPENAI_API_KEY")
 
 # Initialize a sentence embedding model (for fast, local embeddings)
 embedder = SentenceTransformer("all-MiniLM-L6-v2")
