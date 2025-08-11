@@ -37,17 +37,13 @@ CareerNavigator-AI is an AI-driven platform that revolutionizes personalized lea
 
 ### AI & Machine Learning
 - **Latest AI Technologies:** Utilized for advanced data processing and intelligent recommendations.
-- **OpenAI GPT-4 Turbo & Google Gemini 1.5 Pro:** Power natural language processing, AI-driven chat assistance, and intelligent content generation.
+- **Google Gemini 2.0 Flash:** Power natural language processing, AI-driven chat assistance, and intelligent content generation.
 - **Semantic Matching:** Utilizes FAISS with cosine similarity and SentenceTransformers (e.g., all-MiniLM-L6-v2) for precise content and job matching.
 
 ### Recommendation & Job Matching System
 - **AI-Powered Path Generator:** Suggests personalized courses, career pathways, and skill-building resources.
 - **Job Recommendation Model:** Uses BERT and TF-IDF-based methods to align user skills with industry demands.
 - **Resume Processing:** Features an auto resume updater and parser using spaCy and Named Entity Recognition (NER).
-
-### Infrastructure & Deployment
-- **Google Cloud Platform (GCP) & Vertex AI:** For scalable hosting, data processing, and AI model deployment.
-- **Flask API Integration:** Ensures seamless communication between frontend, backend, and AI components.
 
 ## Getting Started
 
