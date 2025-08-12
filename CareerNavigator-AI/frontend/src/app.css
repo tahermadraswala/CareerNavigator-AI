@@ -1,0 +1,99 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.line-clamp-2 {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.line-clamp-3 {
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+/* Custom scrollbar for chat */
+.overflow-y-auto::-webkit-scrollbar {
+  width: 6px;
+}
+
+.overflow-y-auto::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+.overflow-y-auto::-webkit-scrollbar-thumb {
+  background: #c1c1c1;
+  border-radius: 3px;
+}
+
+.overflow-y-auto::-webkit-scrollbar-thumb:hover {
+  background: #a1a1a1;
+}
+
+/* Animations */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.animate-fadeIn {
+  animation: fadeIn 0.3s ease-out;
+}
+
+  return (
+    <Router>
+      <div className="min-h-screen bg-gray-50">
+        {user && <Navbar />}
+        <Routes>
+          <Route 
+            path="/login" 
+            element={!user ? <Login /> : <Navigate to="/dashboard" />} 
+          />
+          <Route 
+            path="/register" 
+            element={!user ? <Register /> : <Navigate to="/dashboard" />} 
+          />
+          <Route 
+            path="/dashboard" 
+            element={user ? <Dashboard /> : <Navigate to="/login" />} 
+          />
+          <Route 
+            path="/assessment" 
+            element={user ? <Assessment /> : <Navigate to="/login" />} 
+          />
+          <Route 
+            path="/courses" 
+            element={user ? <Courses /> : <Navigate to="/login" />} 
+          />
+          <Route 
+            path="/jobs" 
+            element={user ? <Jobs /> : <Navigate to="/login" />} 
+          />
+          <Route 
+            path="/chat" 
+            element={user ? <Chat /> : <Navigate to="/login" />} 
+          />
+          <Route 
+            path="/profile" 
+            element={user ? <Profile /> : <Navigate to="/login" />} 
+          />
+          <Route path="/" element={<Navigate to={user ? "/dashboard" : "/login"} />} />
+        </Routes>
+      </div>
+    </Router>
+  );
+}
+
+function App() {
+  return (
+    <AuthProvider>
+      <AppRoutes />
+    </AuthProvider>
+  );
+}
+
+export default App;
